@@ -106,7 +106,7 @@ def makeNewPlaylist(playlist_Id):
 
 
     try:
-        newPlaylist = sp.user_playlist_create(user_id, copiedPlaylistName, public=True, collaborative=False, description="Cloned using Cloneify. Learn more at https://github.com/artiomcovali")
+        newPlaylist = sp.user_playlist_create(user_id, copiedPlaylistName, public=True, collaborative=False, description="Cloned using Cloneify. Learn more at https://github.com/artiomcovali/Cloneify")
 
         sp.playlist_add_items(newPlaylist["id"], songs, position=None)
 
