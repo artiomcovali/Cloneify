@@ -2,8 +2,9 @@
 
 Made using the Spotify API, Spotipy, and tkinter
 
-#### Generate an API Key from Spotify Dashboard
+![Cloneify](./extras/cloneify.png)
 
+## Generate an API Key from Spotify Dashboard
 
 If you want to use Spotify's API to create applications that interact with
 their music streaming service, you will need an API key. Here's how you can
@@ -26,7 +27,7 @@ and log in with your Spotify account credentials.
    "Show Client Secret" button. You will now see your Client ID and Client
    Secret. You will need both of these to use the Spotify API.
 
-#### Adding permanent environment variables
+## Adding permanent environment variables
 
 1. Set the following environment variables from the credentials you generated.
 
